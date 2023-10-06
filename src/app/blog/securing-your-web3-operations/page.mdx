@@ -1,0 +1,44 @@
+import imageTonyStark from '@/images/team/tony-stark.jpg'
+
+export const article = {
+  date: '2023-04-01',
+  title: 'Securing Your Web3 Operations: An InfoSec Guide for DAOs',
+  description:
+    'As decentralized autonomous organizations rely more on web3 tech, implementing strong information security practices through access controls, wallet management, network security, and incident response plans is critical to build trust and advance innovation safely.',
+  author: {
+    name: 'Tony Stark',
+    role: 'InfoSec Engineer',
+    image: { src: imageTonyStark },
+  },
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+
+## Introduction
+As decentralized autonomous organizations (DAOs) powered by web3 technologies continue to grow in popularity, implementing strong information security practices is critical. With decentralized operations relying heavily on community contributors, the goal of this article is to equip DAO participants with best practices to help secure their web3 environments.
+
+![](./typewriter.jpg)
+
+### Access Management
+Proper access controls are a key starting point for security. DAOs should require multi-factor authentication for any accounts and admin access. This protects against compromised credentials. Role-based permissions should also be instituted so contributors only have the minimum necessary access they need to do their job. Enable session timeouts and limit sessions per user to prevent indefinite access if credentials are compromised.
+
+
+### Wallet & Key Management
+Wallets containing any cryptocurrency keys or assets should be hardware based and stored offline when not needed for transaction signing. Developing secure processes for periodic wallet audits, key rotation, and revocation is critical in case any keys are compromised. For decentralized control, consider splitting keys and seeds across multiple guardians.
+
+
+### Network Security
+With web3 relying heavily on node infrastructure, hardening configurations is important to prevent exploits. Monitor activity across decentralized networks to detect any anomalies or attacks as they occur. Institute firewalls, intrusion detection/prevention systems, and other network security controls especially between nodes and any centralized web2 components.
+
+
+### Incident Response
+Have an incident response plan in place in the event of any security incidents like lost keys, stolen funds, or malicious attacks. Identify your critical assets, define severity levels, and establish escalation procedures and communication channels. Conducting regular incident response exercises will validate effectiveness and allow for continuous security improvements.
+
+
+## Conclusion
+As DAOs scale their decentralized operations, implementing strong InfoSec practices through collaboration will be critical. The key takeaways include properly managing access, keys, infrastructure security, and being prepared to respond to incidents. Staying vigilant about security allows DAOs to build trust and safely advance web3 innovation.
+
