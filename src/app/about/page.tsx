@@ -203,7 +203,7 @@ export default async function About() {
       <PageLinks
         className="mt-24 sm:mt-32 lg:mt-40"
         title="From the blog"
-        intro="Our team of experienced designers and developers has just one thing on their mind; working on your ideas to draw a smile on the face of your users worldwide. From conducting Brand Sprints to UX Design."
+        intro="Our experts share insider perspectives on projects, progress and the future of tech - read our team's candid discussions and cutting-edge insights on the organization blog."
         pages={blogArticles}
       />
 
