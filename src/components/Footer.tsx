@@ -11,7 +11,6 @@ const navigation = [
   {
     title: 'Work',
     links: [
-      { title: 'FamilyFund', href: '/work/family-fund' },
       { title: 'Unseal', href: '/work/unseal' },
       { title: 'Phobia', href: '/work/phobia' },
       {
@@ -28,9 +27,7 @@ const navigation = [
     title: 'Company',
     links: [
       { title: 'About', href: '/about' },
-      { title: 'Process', href: '/process' },
       { title: 'Blog', href: '/blog' },
-      { title: 'Contact us', href: '/contact' },
     ],
   },
   {
@@ -48,7 +45,7 @@ function Navigation() {
             <div className="font-display text-sm font-semibold tracking-wider text-white">
               {section.title}
             </div>
-            <ul role="list" className="mt-4 text-sm text-neutral-700">
+            <ul role="list" className="mt-4 text-sm text-gray-400">
               {section.links.map((link, linkIndex) => (
                 <li key={linkIndex} className="mt-4">
                   <Link
@@ -86,7 +83,7 @@ function NewsletterForm() {
       <h2 className="font-display text-sm font-semibold tracking-wider text-white">
         Sign up for our newsletter
       </h2>
-      <p className="mt-4 text-sm text-neutral-700">
+      <p className="mt-4 text-sm text-gray-400">
         Subscribe to get the latest design news, articles, resources and
         inspiration.
       </p>

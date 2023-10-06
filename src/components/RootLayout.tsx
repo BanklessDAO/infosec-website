@@ -41,7 +41,7 @@ function XIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 function MenuIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
-      <path d="M2 6h20v2H2zM2 16h20v2H2z" />
+      <path fill="white" d="M2 6h20v2H2zM2 16h20v2H2z" />
     </svg>
   )
 }
@@ -79,7 +79,7 @@ function Header({
           /> */}
           <Image
             src={banklessLogo}
-            alt='BanklessDAO logo'
+            alt="BanklessDAO logo"
             width={120}
             height={120}
           />
@@ -90,7 +90,7 @@ function Header({
           /> */}
         </Link>
         <div className="flex items-center gap-x-8">
-          <Button href="/contact" invert={invert}>
+          <Button href="/">
             Contact us
           </Button>
           <button
@@ -101,7 +101,7 @@ function Header({
             aria-controls={panelId}
             className={clsx(
               'group -m-2.5 rounded-full p-2.5 transition',
-              invert ? 'hover:bg-white/10' : 'hover:bg-neutral-950/10',
+              invert ? 'hover:bg-neutral-950/10' : 'hover:bg-neutral-950/10',
             )}
             aria-label="Toggle navigation"
           >
@@ -239,7 +239,7 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
             <div className="relative bg-neutral-950 before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-neutral-800">
               <Container>
                 <div className="grid grid-cols-1 gap-y-10 pb-16 pt-10 sm:grid-cols-2 sm:pt-16">
-                  <div>
+                  {/* <div>
                     <h2 className="font-display text-base font-semibold text-white">
                       Our offices
                     </h2>
@@ -247,7 +247,7 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
                       invert
                       className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2"
                     />
-                  </div>
+                  </div> */}
                   <div className="sm:border-l sm:border-transparent sm:pl-16">
                     <h2 className="font-display text-base font-semibold text-white">
                       Follow us
