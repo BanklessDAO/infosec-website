@@ -23,9 +23,8 @@ export default async function Blog() {
   return (
     <>
       <PageIntro eyebrow="Blog" title="The latest articles and news">
-        <p>
-          Stay up-to-date with the latest industry news as our marketing teams
-          finds new ways to re-purpose old CSS tricks articles.
+        <p className='text-gray-300'>
+          Stay up-to-date with the latest industry news.
         </p>
       </PageIntro>
 
@@ -64,7 +63,7 @@ export default async function Blog() {
                           </div>
                         </dd>
                       </dl>
-                      <p className="mt-6 max-w-2xl text-base text-neutral-600">
+                      <p className="mt-6 max-w-2xl text-base text-gray-300">
                         {article.description}
                       </p>
                       <Button

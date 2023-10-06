@@ -72,7 +72,7 @@ function CaseStudies({
         title="Securing and scaling the decentralized future"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
-        <p className='text-white'>
+        <p className="text-white">
           We make decentralized networks enterprise-ready. Our blockchain DevOps
           and SRE secure web3 technologies and scale them to support widespread
           adoption.
@@ -82,7 +82,7 @@ function CaseStudies({
         <FadeInStagger className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           {caseStudies.map((caseStudy) => (
             <FadeIn key={caseStudy.href} className="flex">
-              <article className="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8">
+              <article className="relative flex w-full flex-col rounded-3xl bg-neutral-950 p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-900 sm:p-8">
                 <h3>
                   <Link href={caseStudy.href}>
                     <span className="absolute inset-0 rounded-3xl" />
@@ -109,7 +109,7 @@ function CaseStudies({
                 <p className="mt-6 font-display text-2xl font-semibold text-white">
                   {caseStudy.title}
                 </p>
-                <p className="mt-4 text-base text-neutral-600">
+                <p className="mt-4 text-base text-gray-200">
                   {caseStudy.description}
                 </p>
               </article>
@@ -187,7 +187,7 @@ export default async function Home() {
           <h1 className="font-display text-5xl font-medium tracking-tight text-white [text-wrap:balance] sm:text-7xl">
             Building the Infrastructure for Web3&apos;s Future
           </h1>
-          <p className="mt-6 text-xl font-medium text-white">
+          <p className="mt-6 text-xl font-medium text-gray-400">
             Our team of DevOps and SRE engineers is dedicated to building
             excellent blockchain infrastructure. By leveraging our specialized
             knowledge, we build the foundational systems that allow you to focus
@@ -202,7 +202,7 @@ export default async function Home() {
 
       <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: 'Phobia', logo: logoPhobiaDark }}
+        client={{ name: 'Phobia', logo: logoPhobiaLight }}
       >
         The promise of blockchain is vast, but its success depends on the
         strength of infrastructure supporting it. We pave the road for
