@@ -10,14 +10,14 @@ import { Container } from '@/components/Container'
 import { FadeIn, FadeInStagger } from '@/components/FadeIn'
 import { PageIntro } from '@/components/PageIntro'
 import { Testimonial } from '@/components/Testimonial'
-import logoBrightPath from '@/images/clients/bright-path/logo-dark.svg'
-import logoFamilyFund from '@/images/clients/family-fund/logo-dark.svg'
-import logoGreenLife from '@/images/clients/green-life/logo-dark.svg'
-import logoHomeWork from '@/images/clients/home-work/logo-dark.svg'
-import logoMailSmirk from '@/images/clients/mail-smirk/logo-dark.svg'
-import logoNorthAdventures from '@/images/clients/north-adventures/logo-dark.svg'
-import logoPhobia from '@/images/clients/phobia/logo-dark.svg'
-import logoUnseal from '@/images/clients/unseal/logo-dark.svg'
+import logoBrightPath from '@/images/clients/bright-path/logo-light.svg'
+import logoFamilyFund from '@/images/clients/family-fund/logo-light.svg'
+import logoGreenLife from '@/images/clients/green-life/logo-light.svg'
+import logoHomeWork from '@/images/clients/home-work/logo-light.svg'
+import logoMailSmirk from '@/images/clients/mail-smirk/logo-light.svg'
+import logoNorthAdventures from '@/images/clients/north-adventures/logo-light.svg'
+import logoPhobia from '@/images/clients/phobia/logo-light.svg'
+import logoUnseal from '@/images/clients/unseal/logo-light.svg'
 import { formatDate } from '@/lib/formatDate'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
 
@@ -65,7 +65,7 @@ function CaseStudies({
                   <p className="font-display text-4xl font-medium text-white">
                     <Link href={caseStudy.href}>{caseStudy.title}</Link>
                   </p>
-                  <div className="mt-6 space-y-6 text-base text-neutral-600">
+                  <div className="mt-6 space-y-6 text-base text-gray-400">
                     {caseStudy.summary.map((paragraph) => (
                       <p key={paragraph}>{paragraph}</p>
                     ))}
@@ -149,12 +149,13 @@ export default async function Work() {
     <>
       <PageIntro
         eyebrow="Our work"
-        title="Proven solutions for real-world problems."
+        title="Advancing industries through inspired engineering"
       >
-        <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+        <p className="text-gray-400">
+          Leveraging CI/CD pipelines and proactive monitoring, we build and
+          manage next-gen platforms that drive business progress. By innovating
+          scalable systems and infrastructure, we make the impossible possible -
+          turning ideas into industry-advancing impact.
         </p>
       </PageIntro>
 
@@ -164,8 +165,8 @@ export default async function Work() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Mail Smirk', logo: logoMailSmirk }}
       >
-        We approached <em>Studio</em> because we loved their past work. They
-        delivered something remarkably similar in record time.
+        We don&apos;t just build web3 systems - we secure the foundation,
+        streamline the workflow, and keep the operation running 24/7.
       </Testimonial>
 
       <Clients />
