@@ -13,8 +13,7 @@ import { loadArticles } from '@/lib/mdx'
 
 export const metadata: Metadata = {
   title: 'Blog',
-  description:
-    'Stay up-to-date with the latest industry news as our marketing teams finds new ways to re-purpose old CSS tricks articles.',
+  description: 'Perspectives and insights from our team.',
 }
 
 export default async function Blog() {
@@ -22,8 +21,8 @@ export default async function Blog() {
 
   return (
     <>
-      <PageIntro eyebrow="Blog" title="The latest articles and news">
-        <p className='text-gray-300'>
+      <PageIntro eyebrow="Blog" title="Perspectives and insights from our team">
+        <p className="text-gray-300">
           Stay up-to-date with the latest industry news.
         </p>
       </PageIntro>
