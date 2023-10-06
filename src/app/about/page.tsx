@@ -9,19 +9,6 @@ import { GridList, GridListItem } from '@/components/GridList'
 import { PageIntro } from '@/components/PageIntro'
 import { PageLinks } from '@/components/PageLinks'
 import { SectionIntro } from '@/components/SectionIntro'
-import { StatList, StatListItem } from '@/components/StatList'
-import imageAngelaFisher from '@/images/team/angela-fisher.jpg'
-import imageBenjaminRussel from '@/images/team/benjamin-russel.jpg'
-import imageBlakeReid from '@/images/team/blake-reid.jpg'
-import imageChelseaHagon from '@/images/team/chelsea-hagon.jpg'
-import imageDriesVincent from '@/images/team/dries-vincent.jpg'
-import imageEmmaDorsey from '@/images/team/emma-dorsey.jpg'
-import imageJeffreyWebb from '@/images/team/jeffrey-webb.jpg'
-import imageKathrynMurphy from '@/images/team/kathryn-murphy.jpg'
-import imageLeonardKrasner from '@/images/team/leonard-krasner.jpg'
-import imageLeslieAlexander from '@/images/team/leslie-alexander.jpg'
-import imageMichaelFoster from '@/images/team/michael-foster.jpg'
-import imageWhitneyFrancis from '@/images/team/whitney-francis.jpg'
 import imageBogdrakonov from '@/images/team/bogdrakonov.png'
 import imageDysan from '@/images/team/dysan.png'
 import imageDownlore from '@/images/team/downl0re.jpeg'
@@ -43,7 +30,7 @@ function Culture() {
       </SectionIntro>
       <Container className="mt-16">
         <GridList>
-          <GridListItem title="Loyalty" invert>
+          <GridListItem title="Loyality" invert>
             Our team has been with us since the beginning because none of them
             are allowed to have LinkedIn profiles.
           </GridListItem>
@@ -51,7 +38,7 @@ function Culture() {
             We don’t care when our team works just as long as they are working
             every waking second.
           </GridListItem>
-          <GridListItem title="Compassion" invert>
+          <GridListItem title="Collaboration" invert>
             You never know what someone is going through at home and we make
             sure to never find out.
           </GridListItem>
@@ -174,33 +161,40 @@ export default async function About() {
 
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
-        <p>
-          We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
-        </p>
-        <div className="mt-10 max-w-2xl space-y-6 text-base">
+      <PageIntro
+        eyebrow="About us"
+        title="Securing and Scaling the Future of Decentralized Systems"
+      >
+        <div className="text-gray-400">
           <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
+            We are firm believers in the revolutionary potential of blockchain
+            and web3 to transform industries. But we also understand that to
+            realize this potential, these emerging technologies require robust
+            infosec, development practices, and 24/7 operational support.
           </p>
-          <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
-          </p>
+          <div className="mt-10 max-w-2xl space-y-6 text-base">
+            <p>
+              That&apos;s why our team specializes in providing end-to-end
+              information security, DevOps, and site reliability engineering for
+              decentralized networks and applications. We secure web3 systems
+              through best-in-class cryptographic expertise, infrastructure
+              hardening, and vulnerability management. We optimize development
+              with automated testing, deployment, and monitoring pipelines
+              tailored for blockchain. And we maintain reliability through
+              proactive incident response, capacity planning, and
+              around-the-clock operational support.
+            </p>
+            <p>
+              Our integrated offering combines the strengths of information
+              security, DevOps, and SRE to enable the possibility of web3. We
+              partner with trailblazing teams and projects to turn innovative
+              ideas into production-ready systems poised for real-world impact.
+              Together, we can drive the evolution of decentralized technologies
+              securely into the future.
+            </p>
+          </div>
         </div>
       </PageIntro>
-      <Container className="mt-16">
-        <StatList>
-          <StatListItem value="35" label="Underpaid employees" />
-          <StatListItem value="52" label="Placated clients" />
-          <StatListItem value="$25M" label="Invoices billed" />
-        </StatList>
-      </Container>
 
       <Culture />
 

@@ -6,7 +6,7 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Bankless DAO',
+    template: '%s - InfoSec',
     default: 'Bankless DAO - Infosec',
   },
 }
