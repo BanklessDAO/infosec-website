@@ -7,7 +7,7 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: '%s - Bankless DAO',
-    default: 'Studio - Award winning developer studio based in Denmark',
+    default: 'Bankless DAO - Infosec',
   },
 }
 
