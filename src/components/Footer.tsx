@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
-import { Logo } from '@/components/Logo'
+// import { Logo } from '@/components/Logo'
 import { socialMediaProfiles } from '@/components/SocialMedia'
 import banklessLogo from '@/images/banklessLogo.png'
 
@@ -11,16 +11,7 @@ const navigation = [
   {
     title: 'Work',
     links: [
-      { title: 'Unseal', href: '/work/unseal' },
-      { title: 'Phobia', href: '/work/phobia' },
-      {
-        title: (
-          <>
-            See all <span aria-hidden="true">&rarr;</span>
-          </>
-        ),
-        href: '/work',
-      },
+      { title: 'Bankless Card', href: '/work/family-fund' },
     ],
   },
   {
@@ -84,8 +75,7 @@ function NewsletterForm() {
         Sign up for our newsletter
       </h2>
       <p className="mt-4 text-sm text-gray-400">
-        Subscribe to get the latest design news, articles, resources and
-        inspiration.
+        Subscribe to get the latest web3 infosec news.
       </p>
       <div className="relative mt-6">
         <input
