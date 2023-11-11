@@ -14,6 +14,7 @@ import logoFamilyFund from '@/images/clients/family-fund/logo-light.svg'
 import logoGreenLife from '@/images/clients/green-life/logo-light.svg'
 import logoHomeWork from '@/images/clients/home-work/logo-light.svg'
 import logoMailSmirk from '@/images/clients/mail-smirk/logo-light.svg'
+import logoBanklessCard from '@/images/clients/bankless-card/banklessCard.svg'
 import logoNorthAdventures from '@/images/clients/north-adventures/logo-light.svg'
 import logoPhobiaDark from '@/images/clients/phobia/logo-dark.svg'
 import logoPhobiaLight from '@/images/clients/phobia/logo-light.svg'
@@ -22,14 +23,7 @@ import imageLaptop from '@/images/laptop.jpg'
 import { type CaseStudy, type MDXEntry, loadCaseStudies } from '@/lib/mdx'
 
 const clients = [
-  ['Phobia', logoPhobiaLight],
-  ['Family Fund', logoFamilyFund],
-  ['Unseal', logoUnseal],
-  ['Mail Smirk', logoMailSmirk],
-  ['Home Work', logoHomeWork],
-  ['Green Life', logoGreenLife],
-  ['Bright Path', logoBrightPath],
-  ['North Adventures', logoNorthAdventures],
+  ['Bankless Cards', logoBanklessCard],
 ]
 
 function Clients() {
@@ -38,7 +32,7 @@ function Clients() {
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            We’ve worked with hundreds of amazing people
+            Some of the teams we have collaborated with
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
@@ -189,8 +183,8 @@ export default async function Home() {
           </h1>
           <p className="mt-6 text-xl font-medium text-gray-400">
             Our team of DevOps and SRE engineers is dedicated to building
-            excellent blockchain infrastructure. By leveraging our specialized
-            knowledge, we build the foundational systems that allow you to focus
+            excellent web platform infrastructure. By leveraging our specialized
+            knowledge, we build the foundational systems that allow teams to focus
             on creating groundbreaking web3 products and services.
           </p>
         </FadeIn>
