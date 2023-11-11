@@ -140,10 +140,10 @@ function Services() {
             </FadeIn>
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Blockchain infrastructure architecture">
+            <ListItem title="Web3 platform infrastructure architecture">
               We architect optimized network infrastructure, integrations, and
               middleware to meet the performance, scalability, and reliability
-              needs of your blockchain implementation.
+              needs of your dapp implementation.
             </ListItem>
             <ListItem title="CI/CD pipeline development">
               We help set up continuous integration and deployment workflows for
